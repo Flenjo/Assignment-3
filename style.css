@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F8FA;
+    padding: 50px;
+    align-content: center;
+
+}
+
+.general-wrapper {
+    display: flex;
+    margin: auto;
+    max-width: 892px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+.form-fill {
+    width: 65%;
+}
+
+.info {
+    background-color: #1179BF;
+    width: 35%;
+    padding: 30px 40px;
+    color: #fff;
+}
+
+
+
+.basic-info,
+.payment-info {
+    padding: 30px;
+}
+
+.input-fill {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.input-fill>div {
+    width: 50%;
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    background: #EDEFF2;
+    border: 1px solid #d9dadb;
+}
+
+.email-input>input {
+    width: 75%;
+}
+
+.img-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-text>img {
+    width: 30px;
+    height: 30px;
+}
+
+.checkout {
+    padding: 30px;
+}
+
+hr {
+    border: 1px solid #dedbdb;
+}
+
+.wp-pusher {
+    width: 483px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    padding-top: 3px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #038E7D;
+    margin: 30px 0px 0px 30px;
+}
+
+.mask {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 70px;
+}
+
+.mask>img {
+    width: 20px;
+    height: 20px;
+
+}
+
+
+.general {
+    font-weight: bold;
+}
+
+.span-img>div {
+    margin: 13px 0;
+    display: flex;
+
+}
+
+.nine {
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.span-img {
+    margin: 50px 0;
+}
+
+.hori {
+    margin: 30px 0;
+    border-width: 1px;
+}
+
+.year {
+    align-self: flex-end;
+}
+
+.renew {
+    font-style: italic;
+}
+
+.space {
+    padding-left: 5px;
+    align-items: center;
+}
+
+.white {
+    color: #fff;
+}
+
+.beard {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.beard>img {
+    border-radius: 50%;
+}
+
+.dollar-sign {
+    display: flex;
+}
+
+.ftp {
+    font-style: italic;
+}
+
+.stripe {
+    width: 25%;
+    margin-left: 150px;
+    padding: 4px 5px;
+    align-items: center;
+    background-color: #c0bbbb;
+    border-radius: 10px;
+    color: #F5F8FA;
+
+}
+
+
+.pusher {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.acc {
+    border: 1px solid #c0bbbb;
+    padding: 5px 20px;
+    margin-top: -4px;
+}
+
+.hr {
+    margin-bottom: 50px;
+}
